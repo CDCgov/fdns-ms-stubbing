@@ -2,7 +2,7 @@
 
 # FDNS Stubbing Microservice
 
-This repository contains a stubbing service for testing against the various endpoints of the FDNS Microservices. This microservice is intended to be run as a Docker container via docker-compose (or similar) to run automated tests against the endpoints in other FDNS microservices or apps.
+This repository contains a stubbing service for testing against the various endpoints of the FDNS Microservices without running the full microservices in the background. This microservice is intended to be run as a Docker container via docker-compose (or similar) to run automated tests against the endpoints in other FDNS microservices or apps.
 
 ## Notes on parameter or query values in testing
 
