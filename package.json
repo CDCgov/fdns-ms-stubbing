@@ -1,0 +1,29 @@
+{
+  "name": "fdns-ms-stubbing",
+  "version": "1.0.0",
+  "description": "This is the Stubbing Service for testing Foundation Services",
+  "main": "lib/app.js",
+  "scripts": {
+    "start": "node lib/app.js",
+    "dev": "NODE_ENV=dev nodemon lib/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CDCgov/fdns-ms-stubbing.git"
+  },
+  "author": "Centers for Disease Control and Prevention (http://github.com/CDCgov)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/CDCgov/fdns-ms-stubbing/issues"
+  },
+  "homepage": "https://github.com/CDCgov/fdns-ms-stubbing#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "multer": "^1.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
