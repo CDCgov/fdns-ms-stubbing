@@ -1,6 +1,6 @@
 {
   "name": "fdns-ms-stubbing",
-  "version": "1.0.0",
+  "version": "0.5.0",
   "description": "This is the Stubbing Service for testing Foundation Services",
   "main": "lib/app.js",
   "scripts": {
