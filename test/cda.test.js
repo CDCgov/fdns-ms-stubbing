@@ -16,4 +16,25 @@ describe('CDA Utils Routes', () => {
       done();
     });
   });
+
+  it(`GET ${baseURL}/generate`, (done) => {
+    request(app)
+    .get(`${baseURL}/generate`)
+    .expect(200)
+    .end(function(err, res) {
+      if (err) throw err;
+      done();
+    });
+  });
+
+  it(`POST ${baseURL}/json`, (done) => {
+    request(app)
+    .post(`${baseURL}/json`)
+    .send('cda')
+    .expect(200)
+    .end(function(err, res) {
+      if (err) throw err;
+      done();
+    });
+  });
 });

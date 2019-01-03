@@ -71,3 +71,6 @@ dist/
 
 # temp downloads folder
 /temp
+
+.vscode
+.DS_Store

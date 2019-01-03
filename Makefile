@@ -4,13 +4,6 @@ docker-build:
 		--rm \
 		.
 
-docker-build-secure:
-	docker build \
-		-t fdns-ms-stubbing \
-		--rm \
-		--build-arg SECURE_MODE=true \
-		.
-
 docker-run: docker-start
 docker-start:
 	docker run -d \
